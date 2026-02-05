@@ -2,26 +2,39 @@ site_name: OneCloud Notes & Documentation
 site_url: https://sitename.example
 theme:
   name: material
+  favicon: assets/zcool.svg
   icon:
-    logo : simple/termius
+    logo : simple/zcool
   features:
+    - navigation.indexes
     - navigation.footer
+    - content.code.copy
+    - content.tabs.link
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: material/toggle-switch-off-outline
         name: Dark mode
       primary: indigo
-      accent: deep purple
+      accent: grey
 
     # Light Mode
     - scheme: default
       toggle:
-        icon: material/weather-night
+        icon: material/toggle-switch
         name: Light mode
       primary: indigo
-      accent: deep orange
+      accent: grey
+nav:
+  - Home: index.md
+  - Library:
+    - Update-SSL.md
+    - reset-admin-AAP.md
+    - fsck-root.md
+    - pending-Ansible.md
+    - extend-disk.md
+    - os-failed.md
 
 markdown_extensions:
   - attr_list
@@ -44,10 +57,22 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+plugins:
+   - glightbox
+   
 
 extra:
+  status:
+    new: Recently added
   social:
     - icon: simple/instagram
       link: https://www.instagram.com/wnnn23_/
     - icon: fontawesome/brands/linkedin-in
       link: www.linkedin.com/in/mohammad-alwan-252454280
+
+extra_css:
+  - stylesheets/extra.css

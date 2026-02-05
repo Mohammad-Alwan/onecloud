@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<div style="text-align:center; line-height:1.2;">
+  <div style="font-size:1.8rem; font-weight:550; margin-bottom:0;">
+    Welcome Guys
+  </div>
+  <div style="font-size:2.0rem; font-weight:550; margin-top:0;">
+    This is my space 😁
+  </div>
+</div>
 
-## Commands
+## Content
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `Findings` 
+* `Troubleshooting` 
+* `Experiments`
+* `Notes to Remember`
 
-## Project layout
+??? "Getting Started"
+    [:octicons-arrow-right-24: Update SSL](Update-SSL.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! warning 
+    The notes and documentation here are based on cases from my lab, troubleshooting activities, and work tasks that have been successfully completed. Use additional sources as references.
