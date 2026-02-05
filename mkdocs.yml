@@ -61,10 +61,6 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-plugins:
-   - glightbox
-   
-
 extra:
   status:
     new: Recently added
