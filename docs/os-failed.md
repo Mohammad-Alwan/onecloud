@@ -11,7 +11,8 @@ The RHEL OS running on top of openstack failed to boot, got stuck (crowdstrike s
 df -TH 
 ```
 Observe disk usage with a percentage usage of up to 100%. 
-> **In this case I found that _/var/log/audit_ was full.**
+!!! note
+    **In this case I found that _/var/log/audit_ was full.**
 
 2. Free up space for the _/var/log/audit/_ partition and reboot the node
 ```bash
