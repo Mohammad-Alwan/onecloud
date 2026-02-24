@@ -38,6 +38,7 @@ The RHEL operating system is stuck during the boot process because `/dev/os/lv_s
 5. Mount the boot partition to the /boot directory.
    ```bash 
     mount /dev/sda3 /boot
+    ```
 
 6. Change boot entry parameters in the file /boot/loader/entries/*6.12.0-124.8.1.el10_1.x86_64.conf
 
