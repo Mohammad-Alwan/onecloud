@@ -123,6 +123,7 @@ assets-large/
 docs/CA-from-another-file-key.md
 docs/cek-fs-aix.md
 docs/config-httpd-fpm.md
+docs/config-for-log-reboot.md
 
 # mypy
 .mypy_cache/

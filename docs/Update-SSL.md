@@ -1,7 +1,7 @@
 ---
 date: 2026-02-20
 ---
-# Update SSL 
+# Update SSL Service in Linux
 !!! info
     This is an example for server that uses the httpd service listens on port 443.
 
