@@ -1,6 +1,8 @@
 ---
-authors:
-  - alwan
+date: 2026-01-01
+authors: [alwan]
+description: >
+  System Engineer at PT Ivatama Teknologi
 ---
   
 # Introduction
