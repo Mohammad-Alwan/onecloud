@@ -2,9 +2,9 @@ site_name: OneCloud Notes & Documentation
 site_url: https://sitename.example
 theme:
   name: material
-  favicon: assets/blog.svg
+  favicon: assets/blog
   icon:
-    logo : assets/blog.svg
+    logo : assets/blog
   features:
     - navigation.indexes
     - navigation.footer
