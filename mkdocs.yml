@@ -2,7 +2,7 @@ site_name: OneCloud Notes & Documentation
 site_url: https://sitename.example
 theme:
   name: material
-  favicon: assets/bash-logo.svg
+  favicon: assets/logo-bash.png
   icon:
     logo : simple/zcool
   features:
