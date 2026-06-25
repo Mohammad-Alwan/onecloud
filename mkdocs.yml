@@ -4,7 +4,7 @@ theme:
   name: material
   favicon: assets/logo-bash.png
   icon:
-    logo : assets/logo-bash.png
+    logo : logo-bash.png
   features:
     - navigation.indexes
     - navigation.footer
